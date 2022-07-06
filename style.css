@@ -22,10 +22,10 @@ nav li {
   }
 
 
-.column.middle {
-    color:rgb(10, 20, 30);
-    background-color: blueviolet;
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-  }
+.main-block {
+  height: 800px;
+  width: 80%;
+  text-align: center;
+  position: 
+  background-color: aqua;
+}
