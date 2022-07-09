@@ -26,6 +26,6 @@ nav li {
   height: 800px;
   width: 80%;
   text-align: center;
-  position: 
+  position: thing; /* FIX THIS LINE */
   background-color: aqua;
 }
