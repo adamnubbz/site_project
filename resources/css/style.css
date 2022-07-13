@@ -1,40 +1,58 @@
-/*
-* {
-  border: 1px solid red;
+html {
+  font-family: "Gantari", sans-serif;
+  font-size: 20px;
 }
-*/
 
-body {
+.background {
   background-image: url("../images/tom-strecker-Y4N_gAVowbo-unsplash.jpg");
+  background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 38rem;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
+.content {
+  padding-top: 4rem;
 }
 
 header {
-  background-color: rgb(10, 20, 30);
   position: fixed;
+  z-index: 100;
   width: 100%;
-  z-index: 1;
+  background-color: rgb(10, 20, 30);
+}
+
+header .top-nav {
+  display: flex;
   align-items: center;
+  justify-content: right;
+  padding: 1rem;
 }
 
 nav li {
-  color: rgb(200, 200, 200);
-  font-family: "Gantari", sans-serif;
   font-weight: 100;
-  font-size: 20px;
   display: inline-block;
   width: 0 auto;
-  padding: 10px;
+  padding-right: 1rem;
+}
+
+nav li a {
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+}
+
+nav li a:active {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: rgb(200, 200, 100);
+  text-decoration: none;
 }
 
 .content {
   color: rgb(200, 200, 200);
   align-items: center;
-  padding:
 }
