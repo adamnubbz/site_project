@@ -3,34 +3,18 @@ html {
   font-size: 20px;
 }
 
-.background-banner {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 38rem;
-  background-image: url("../images/tom-strecker-Y4N_gAVowbo-unsplash.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.content {
-  position: relative;
-  top: 3rem;
-}
-
 header {
   position: fixed;
   z-index: 100;
   width: 100%;
   background-color: rgb(10, 20, 30);
+  padding: 1rem;
 }
 
-header .top-nav {
+nav .top-nav {
   display: flex;
-  align-items: center;
-  justify-content: right;
-  padding: 1rem;
+  font-family: "Gantari", sans-serif;
+  font-size: 20px;
 }
 
 nav li {
@@ -55,7 +39,6 @@ nav li a:hover {
   text-decoration: none;
 }
 
-.content {
-  color: rgb(200, 200, 200);
-  align-items: center;
+ul .site-links {
+  float: right;
 }
