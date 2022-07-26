@@ -3,20 +3,15 @@ html {
   font-size: 20px;
 }
 
-.background-banner {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 38rem;
-  background-image: url("../images/tom-strecker-Y4N_gAVowbo-unsplash.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
+main {
+  position: relative;
 }
 
-.content {
-  position: relative;
-  top: 3rem;
+.banner {
+  background: no-repeat url("../images/tom-strecker-Y4N_gAVowbo-unsplash.jpg")
+    center top / cover;
+  background-attachment: fixed;
+  height: 30rem;
 }
 
 header {
@@ -31,6 +26,7 @@ header .top-nav {
   align-items: center;
   justify-content: right;
   padding: 1rem;
+  padding-right: 0.25rem;
 }
 
 nav li {
@@ -58,4 +54,52 @@ nav li a:hover {
 .content {
   color: rgb(200, 200, 200);
   align-items: center;
+}
+
+.chapters {
+  position: relative;
+  top: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.chapter {
+  display: flex;
+  height: 200px;
+  width: 400px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  height: 10rem;
+  background-color: rgb(10, 20, 30);
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  width: auto;
+  background-color: rgb(10, 20, 30);
+  padding: 3rem;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+footer .bot-nav {
+  border-top: 1px solid rgb(200, 200, 200);
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 2.5rem;
+  width: 90%;
 }
